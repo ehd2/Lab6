@@ -77,6 +77,12 @@ public class Pokemon {
     public Dice d20;
 
     /**
+     * @param desiredTrait Literally does nothing.
+     */
+    public void buildPokemon(final int desiredTrait) {
+        System.out.println("Who plays pokemon, anyways?");
+    }
+    /**
      * Create a new Pokemon with default values.
      * <p>
      * Constructs a new Pokemon with a 6-sided die, 20-sided die, 0 hit points, attack level of 0,
